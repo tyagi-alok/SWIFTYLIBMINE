@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8AE325272AC6CF0200694D48 /* SWIFTYLIBMINE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE3251E2AC6CF0200694D48 /* SWIFTYLIBMINE.framework */; };
-		8AE3252C2AC6CF0200694D48 /* SWIFTYLIBMINETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3252B2AC6CF0200694D48 /* SWIFTYLIBMINETests.swift */; };
 		8AE3252D2AC6CF0200694D48 /* SWIFTYLIBMINE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE325212AC6CF0200694D48 /* SWIFTYLIBMINE.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE3253D2AC6CF3400694D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3253C2AC6CF3400694D48 /* AppDelegate.swift */; };
 		8AE3253F2AC6CF3400694D48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3253E2AC6CF3400694D48 /* SceneDelegate.swift */; };
@@ -17,9 +16,6 @@
 		8AE325472AC6CF3400694D48 /* SWIFTYLIBMINEExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325452AC6CF3400694D48 /* SWIFTYLIBMINEExample.xcdatamodeld */; };
 		8AE325492AC6CF3500694D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE325482AC6CF3500694D48 /* Assets.xcassets */; };
 		8AE3254C2AC6CF3500694D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3254A2AC6CF3500694D48 /* LaunchScreen.storyboard */; };
-		8AE325572AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325562AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.swift */; };
-		8AE325612AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325602AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.swift */; };
-		8AE325632AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325622AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,27 +26,12 @@
 			remoteGlobalIDString = 8AE3251D2AC6CF0200694D48;
 			remoteInfo = SWIFTYLIBMINE;
 		};
-		8AE325532AC6CF3500694D48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AE325152AC6CF0200694D48 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AE325392AC6CF3400694D48;
-			remoteInfo = SWIFTYLIBMINEExample;
-		};
-		8AE3255D2AC6CF3500694D48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AE325152AC6CF0200694D48 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AE325392AC6CF3400694D48;
-			remoteInfo = SWIFTYLIBMINEExample;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8AE3251E2AC6CF0200694D48 /* SWIFTYLIBMINE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWIFTYLIBMINE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE325212AC6CF0200694D48 /* SWIFTYLIBMINE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWIFTYLIBMINE.h; sourceTree = "<group>"; };
 		8AE325262AC6CF0200694D48 /* SWIFTYLIBMINETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIFTYLIBMINETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE3252B2AC6CF0200694D48 /* SWIFTYLIBMINETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTYLIBMINETests.swift; sourceTree = "<group>"; };
 		8AE3253A2AC6CF3400694D48 /* SWIFTYLIBMINEExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTYLIBMINEExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE3253C2AC6CF3400694D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE3253E2AC6CF3400694D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +41,6 @@
 		8AE325482AC6CF3500694D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE3254B2AC6CF3500694D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE3254D2AC6CF3500694D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AE325522AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIFTYLIBMINEExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE325562AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTYLIBMINEExampleTests.swift; sourceTree = "<group>"; };
-		8AE3255C2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIFTYLIBMINEExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE325602AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTYLIBMINEExampleUITests.swift; sourceTree = "<group>"; };
-		8AE325622AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTYLIBMINEExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,20 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE3254F2AC6CF3500694D48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AE325592AC6CF3500694D48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,10 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8AE325202AC6CF0200694D48 /* SWIFTYLIBMINE */,
-				8AE3252A2AC6CF0200694D48 /* SWIFTYLIBMINETests */,
 				8AE3253B2AC6CF3400694D48 /* SWIFTYLIBMINEExample */,
-				8AE325552AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests */,
-				8AE3255F2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests */,
 				8AE3251F2AC6CF0200694D48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,8 +84,6 @@
 				8AE3251E2AC6CF0200694D48 /* SWIFTYLIBMINE.framework */,
 				8AE325262AC6CF0200694D48 /* SWIFTYLIBMINETests.xctest */,
 				8AE3253A2AC6CF3400694D48 /* SWIFTYLIBMINEExample.app */,
-				8AE325522AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.xctest */,
-				8AE3255C2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,14 +94,6 @@
 				8AE325212AC6CF0200694D48 /* SWIFTYLIBMINE.h */,
 			);
 			path = SWIFTYLIBMINE;
-			sourceTree = "<group>";
-		};
-		8AE3252A2AC6CF0200694D48 /* SWIFTYLIBMINETests */ = {
-			isa = PBXGroup;
-			children = (
-				8AE3252B2AC6CF0200694D48 /* SWIFTYLIBMINETests.swift */,
-			);
-			path = SWIFTYLIBMINETests;
 			sourceTree = "<group>";
 		};
 		8AE3253B2AC6CF3400694D48 /* SWIFTYLIBMINEExample */ = {
@@ -160,23 +109,6 @@
 				8AE325452AC6CF3400694D48 /* SWIFTYLIBMINEExample.xcdatamodeld */,
 			);
 			path = SWIFTYLIBMINEExample;
-			sourceTree = "<group>";
-		};
-		8AE325552AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				8AE325562AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.swift */,
-			);
-			path = SWIFTYLIBMINEExampleTests;
-			sourceTree = "<group>";
-		};
-		8AE3255F2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8AE325602AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.swift */,
-				8AE325622AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITestsLaunchTests.swift */,
-			);
-			path = SWIFTYLIBMINEExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,42 +178,6 @@
 			productReference = 8AE3253A2AC6CF3400694D48 /* SWIFTYLIBMINEExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AE325512AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AE325672AC6CF3500694D48 /* Build configuration list for PBXNativeTarget "SWIFTYLIBMINEExampleTests" */;
-			buildPhases = (
-				8AE3254E2AC6CF3500694D48 /* Sources */,
-				8AE3254F2AC6CF3500694D48 /* Frameworks */,
-				8AE325502AC6CF3500694D48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AE325542AC6CF3500694D48 /* PBXTargetDependency */,
-			);
-			name = SWIFTYLIBMINEExampleTests;
-			productName = SWIFTYLIBMINEExampleTests;
-			productReference = 8AE325522AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8AE3255B2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AE3256A2AC6CF3500694D48 /* Build configuration list for PBXNativeTarget "SWIFTYLIBMINEExampleUITests" */;
-			buildPhases = (
-				8AE325582AC6CF3500694D48 /* Sources */,
-				8AE325592AC6CF3500694D48 /* Frameworks */,
-				8AE3255A2AC6CF3500694D48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AE3255E2AC6CF3500694D48 /* PBXTargetDependency */,
-			);
-			name = SWIFTYLIBMINEExampleUITests;
-			productName = SWIFTYLIBMINEExampleUITests;
-			productReference = 8AE3255C2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,14 +197,6 @@
 					8AE325392AC6CF3400694D48 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					8AE325512AC6CF3500694D48 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 8AE325392AC6CF3400694D48;
-					};
-					8AE3255B2AC6CF3500694D48 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 8AE325392AC6CF3400694D48;
-					};
 				};
 			};
 			buildConfigurationList = 8AE325182AC6CF0200694D48 /* Build configuration list for PBXProject "SWIFTYLIBMINE" */;
@@ -327,8 +215,6 @@
 				8AE3251D2AC6CF0200694D48 /* SWIFTYLIBMINE */,
 				8AE325252AC6CF0200694D48 /* SWIFTYLIBMINETests */,
 				8AE325392AC6CF3400694D48 /* SWIFTYLIBMINEExample */,
-				8AE325512AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests */,
-				8AE3255B2AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -358,20 +244,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE325502AC6CF3500694D48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AE3255A2AC6CF3500694D48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -386,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE3252C2AC6CF0200694D48 /* SWIFTYLIBMINETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE3254E2AC6CF3500694D48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AE325572AC6CF3500694D48 /* SWIFTYLIBMINEExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AE325582AC6CF3500694D48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AE325632AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITestsLaunchTests.swift in Sources */,
-				8AE325612AC6CF3500694D48 /* SWIFTYLIBMINEExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -425,16 +279,6 @@
 			isa = PBXTargetDependency;
 			target = 8AE3251D2AC6CF0200694D48 /* SWIFTYLIBMINE */;
 			targetProxy = 8AE325282AC6CF0200694D48 /* PBXContainerItemProxy */;
-		};
-		8AE325542AC6CF3500694D48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AE325392AC6CF3400694D48 /* SWIFTYLIBMINEExample */;
-			targetProxy = 8AE325532AC6CF3500694D48 /* PBXContainerItemProxy */;
-		};
-		8AE3255E2AC6CF3500694D48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AE325392AC6CF3400694D48 /* SWIFTYLIBMINEExample */;
-			targetProxy = 8AE3255D2AC6CF3500694D48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -722,82 +566,6 @@
 			};
 			name = Release;
 		};
-		8AE325682AC6CF3500694D48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3Y74N44552;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Alok.SWIFTYLIBMINEExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFTYLIBMINEExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SWIFTYLIBMINEExample";
-			};
-			name = Debug;
-		};
-		8AE325692AC6CF3500694D48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3Y74N44552;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Alok.SWIFTYLIBMINEExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFTYLIBMINEExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SWIFTYLIBMINEExample";
-			};
-			name = Release;
-		};
-		8AE3256B2AC6CF3500694D48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3Y74N44552;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Alok.SWIFTYLIBMINEExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SWIFTYLIBMINEExample;
-			};
-			name = Debug;
-		};
-		8AE3256C2AC6CF3500694D48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3Y74N44552;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Alok.SWIFTYLIBMINEExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SWIFTYLIBMINEExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,24 +601,6 @@
 			buildConfigurations = (
 				8AE325652AC6CF3500694D48 /* Debug */,
 				8AE325662AC6CF3500694D48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AE325672AC6CF3500694D48 /* Build configuration list for PBXNativeTarget "SWIFTYLIBMINEExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AE325682AC6CF3500694D48 /* Debug */,
-				8AE325692AC6CF3500694D48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AE3256A2AC6CF3500694D48 /* Build configuration list for PBXNativeTarget "SWIFTYLIBMINEExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AE3256B2AC6CF3500694D48 /* Debug */,
-				8AE3256C2AC6CF3500694D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
