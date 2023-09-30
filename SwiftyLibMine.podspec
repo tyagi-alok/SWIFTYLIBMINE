@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SwiftyLib"
+  spec.name         = "SwiftyLibMine"
   spec.version      = "0.0.1"
   spec.summary      = "Pod library for the third party"
 
