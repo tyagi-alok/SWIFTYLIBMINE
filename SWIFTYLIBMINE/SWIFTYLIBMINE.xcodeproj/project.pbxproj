@@ -17,6 +17,7 @@
 		8AE325472AC6CF3400694D48 /* SWIFTYLIBMINEExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325452AC6CF3400694D48 /* SWIFTYLIBMINEExample.xcdatamodeld */; };
 		8AE325492AC6CF3500694D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE325482AC6CF3500694D48 /* Assets.xcassets */; };
 		8AE3254C2AC6CF3500694D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3254A2AC6CF3500694D48 /* LaunchScreen.storyboard */; };
+		8AE325792AC7E78C00694D48 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE325782AC7E78C00694D48 /* NetworkManager.swift */; };
 		A9102F639501739CC2A0A5F0 /* Pods_SWIFTYLIBMINEExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFD05F4EC5EDBCD3D84680B /* Pods_SWIFTYLIBMINEExample.framework */; };
 		A9CEFE431B6948C4DD3E9D5C /* Pods_SWIFTYLIBMINE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE81DA4B0FC880962E1D4F9D /* Pods_SWIFTYLIBMINE.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		8AE325482AC6CF3500694D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE3254B2AC6CF3500694D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE3254D2AC6CF3500694D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE325782AC7E78C00694D48 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B575EE38672A45C7B362CADB /* Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests/Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests.release.xcconfig"; sourceTree = "<group>"; };
 		BE81DA4B0FC880962E1D4F9D /* Pods_SWIFTYLIBMINE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTYLIBMINE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07CC9A8D197AF9A9AD74C31 /* Pods-SWIFTYLIBMINE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTYLIBMINE.release.xcconfig"; path = "Target Support Files/Pods-SWIFTYLIBMINE/Pods-SWIFTYLIBMINE.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		8AE325202AC6CF0200694D48 /* SWIFTYLIBMINE */ = {
 			isa = PBXGroup;
 			children = (
+				8AE325772AC7E77B00694D48 /* NetworkManager */,
 				8AE325212AC6CF0200694D48 /* SWIFTYLIBMINE.h */,
 			);
 			path = SWIFTYLIBMINE;
@@ -138,6 +141,14 @@
 			path = SWIFTYLIBMINEExample;
 			sourceTree = "<group>";
 		};
+		8AE325772AC7E77B00694D48 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8AE325782AC7E78C00694D48 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		EF00E7D92637DAA5128DC040 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +159,6 @@
 				FCE8402998EC4EB0B2BDC8BD /* Pods-SWIFTYLIBMINEExample.debug.xcconfig */,
 				1308954E7CA1E58FFA74FC3D /* Pods-SWIFTYLIBMINEExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -235,6 +245,7 @@
 				TargetAttributes = {
 					8AE3251D2AC6CF0200694D48 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					8AE325252AC6CF0200694D48 = {
 						CreatedOnToolsVersion = 14.1;
@@ -382,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE325792AC7E78C00694D48 /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33254D06CB7C014756478E25 /* Pods-SWIFTYLIBMINE.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -577,6 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -586,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F07CC9A8D197AF9A9AD74C31 /* Pods-SWIFTYLIBMINE.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -615,6 +630,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 397ED7F3CAFB84AEB618D4ED /* Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y74N44552;
@@ -632,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B575EE38672A45C7B362CADB /* Pods-SWIFTYLIBMINE-SWIFTYLIBMINETests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y74N44552;
