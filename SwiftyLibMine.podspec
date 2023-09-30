@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftyLibMine"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.1"
   spec.summary      = "Pod library for the third party"
 
   # This description is used to generate tags and improve search results.
